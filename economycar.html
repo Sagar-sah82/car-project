@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+  body {
+    background: linear-gradient(to bottom right, #000000, #3d3d3d, #ffffff);
+    color: white;
+  }
+
+  .navbar {
+    background-color: #111;
+  }
+
+  .jumbotron-custom {
+    background: linear-gradient(to right, #000000, #3a3a3a, #e0e0e0);
+    padding: 4rem 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    text-align: center;
+  }
+
+  .card {
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .brand {
+    font-size: 0.85rem;
+    color: #bbb;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 255, 255, 0.2);
+  }
+
+
+     .nav-item a {
+    color: rgb(15, 8, 1);
+    font-size: 30px;
+    
+    text-align: center;
+    word-spacing: 40px;
+  }
+
+  .nav-item a:hover {
+    color: rgb(54, 121, 121);
+  }
+</style>
+
+<body>
+
+ <nav class="navbar navbar-expand-lg    shadow-sm sticky-top" style=" background: linear-gradient(to right, #000000, #3a3a3a, #e0e0e0); ">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="mainNavbar " style="height:40px; justify-content: end; ">
+             <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="gap: 30px; ">
+
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">ContactUs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="About.html">AboutUs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+  <div class="container">
+    <div class="jumbotron-custom my-4">
+      <h1 class="display-5 fw-bold">Economy Class Cars</h1>
+      <p class="lead">Affordable, stylish & efficient cars from India and abroad – perfect for your journey.</p>
+    </div>
+  </div>
+
+  <!-- Cards -->
+  <div class="container">
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://wallpaperaccess.com/download/honda-amaze-9527016" class="card-img-top" alt="Honda Amaze">
+          <div class="card-body">
+            <h5 class="card-title">Honda Amaze</h5>
+            <p class="brand">Indian Brand</p>
+            <p class="card-text">Fuel-efficient and reliable for everyday city use.</p>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://www.drivespark.com/images/2021-09/2021-hyundai-i20-n-line-102.jpg" class="card-img-top" alt="Hyundai i20">
+          <div class="card-body">
+            <h5 class="card-title">Hyundai i20</h5>
+            <p class="brand">Indian Brand</p>
+            <p class="card-text">Premium hatchback with smooth performance and features.</p>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://wallpapercave.com/wp/wp2681433.jpg" class="card-img-top" alt="Maruti Swift">
+          <div class="card-body">
+            <h5 class="card-title">Maruti Swift</h5>
+            <p class="brand">Indian Brand</p>
+            <p class="card-text">Sporty looks and great mileage – perfect for urban drives.</p>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://wallpapercave.com/wp/wp2536118.jpg" class="card-img-top" alt="Ford Fiesta">
+          <div class="card-body">
+            <h5 class="card-title">Ford Fiesta</h5>
+            <p class="brand">Foreign Brand</p>
+            <p class="card-text">Solid build, efficient engine, and compact design.</p>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://rare-gallery.com/uploads/posts/848955-2018-Yaris-Cross-Toyota-White-Metallic.jpg"class="card-img-top" alt="Toyota Yaris">
+          <div class="card-body">
+            <h5 class="card-title">Toyota Yaris</h5>
+            <p class="brand">Foreign Brand</p>
+            <p class="card-text">Durable, comfortable, and known for its smooth ride.</p>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/39345/tiago-exterior-right-front-three-quarter-5.jpeg?q=80" class="card-img-top" alt="Tata Tiago">
+          <div class="card-body">
+            <h5 class="card-title">Tata Tiago</h5>
+            <p class="brand">Indian Brand</p>
+            <p class="card-text">Compact, budget-friendly and full of features.</p>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/1494938170/photo/white-nissan-micra-fifth-generation-is-parked-in-park-in-palic-serbia.jpg?s=1024x1024&w=is&k=20&c=m6ALx25SlzQ5otFUTwFbtajawCs7x0h4Dqqkb7uSfus=" class="card-img-top" alt="Nissan Micra">
+          <div class="card-body">
+            <h5 class="card-title">Nissan Micra</h5>
+            <p class="brand">Foreign Brand</p>
+            <p class="card-text">Modern hatchback with a quiet engine and great tech.</p>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://wallpapercat.com/w/full/f/8/f/1745577-2880x1800-desktop-hd-suzuki-baleno-background-image.jpg" class="card-img-top" alt="Suzuki Baleno">
+          <div class="card-body">
+            <h5 class="card-title">Suzuki Baleno</h5>
+            <p class="brand">Indian Brand</p>
+            <p class="card-text">Spacious interiors with an efficient drive system.</p>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://wallpapercave.com/wp/wp8818906.jpg" class="card-img-top" alt="Kia Picanto">
+          <div class="card-body">
+            <h5 class="card-title">Kia Picanto</h5>
+            <p class="brand">Foreign Brand</p>
+            <p class="card-text">Compact car with style and advanced safety features.</p>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY </a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+  <footer class=" text-white pt-5 pb-4"
+        style=" background: linear-gradient(to right, #000000, #555555, #232121); border-top-left-radius: 80px;">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+
+                <!-- Company Info -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> URBAN-YATRA</h5>
+                    <p>
+                        DriveCart is your trusted destination to buy, sell, and rent cars with ease. We offer verified
+                        listings, best deals, and 24x7 customer support.
+                    </p>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+                    <p><i class="fas fa-home me-3"></i> 123 Auto Street, Car City, India</p>
+                    <p><i class="fas fa-envelope me-3"></i> support@carzone.com</p>
+                    <p><i class="fas fa-phone me-3"></i> ‪+91 98765 43210‬</p>
+                    <p><i class="fas fa-clock me-3"></i> Mon - Sat: 9AM - 8PM</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
+                    <p><a href="index.html" class="text-white text-decoration-none">Home</a></p>
+                    <p><a href="login.html" class="text-white text-decoration-none">login</a></p>
+                    <p><a href="contact.html" class="text-white text-decoration-none">Contact Us</a></p>
+                    <p><a href="service.html" class="text-white text-decoration-none">Service</a></p>
+                    <p><a href="About.html" class="text-white text-decoration-none">about</a></p>
+                </div>
+
+                <!-- Social Media -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Follow Us</h5>
+                    <a href="#" class="text-white me-4"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-white me-4"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-white me-4"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-white me-4"><i class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <p class="text-white">© 2025 CarZone Pvt. Ltd. All Rights Reserved.</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

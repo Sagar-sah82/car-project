@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @keyframes gradientShift {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .register-container {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        padding: 40px 30px;
+        width: 360px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(12px);
+        color: white;
+    }
+
+    .register-container h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #ffffff;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.15);
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .form-group input::placeholder {
+        color: #ccc;
+    }
+
+    .form-group label {
+        font-size: 14px;
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    .terms {
+        font-size: 13px;
+        margin-top: 8px;
+    }
+
+    .terms input {
+        margin-right: 6px;
+    }
+
+    .register-btn {
+        width: 100%;
+        padding: 12px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 12px;
+        background: linear-gradient(90deg, #232323, #413f41);
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .register-btn:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 15px #434444;
+    }
+
+    .login-link {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .login-link a {
+        color: #00ffff;
+        text-decoration: none;
+    }
+
+    .login-link a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 420px) {
+        .register-container {
+            width: 90%;
+            padding: 30px 20px;
+        }
+    }
+
+    .register-container {
+        background: linear-gradient(160deg, #162128, #2c3e50);
+
+        height: 600-px;
+        width: 400px;
+
+    }
+
+    .nn {
+        display: flex;
+        justify-content: space-between;
+        background: linear-gradient(to right, #686969, #2c3e50);
+    }
+
+    .jumbotron {
+        max-width: 900px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.05);
+        padding: 60px 40px;
+        border-radius: 20px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        margin-right: 80px;
+    }
+
+    .jumbotron h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        line-height: 1.2;
+    }
+
+    .jumbotron p {
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: #ddd;
+    }
+
+    .jumbotron .cta-btn {
+        padding: 14px 28px;
+        font-size: 16px;
+        background: linear-gradient(90deg, #1a1c1c, #686368);
+        border: none;
+        border-radius: 30px;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .cta-btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px #414141;
+    }
+
+    .jumbotron:hover {
+        transform: scaleX(1.04);
+        transition: 2s;
+
+    }
+
+    @media (max-width: 768px) {
+        .jumbotron h1 {
+            font-size: 32px;
+        }
+
+        .jumbotron p {
+            font-size: 16px;
+        }
+
+        .jumbotron {
+            padding: 40px 20px;
+        }
+    }
+</style>
+
+<body style="color: #162128;">
+    <div class="nn">
+
+        <!-- <h1 style="font-weight: 700; font-size: 400; text-align: center;">Join a community of drivers who trust us on
+            every mile.</h1> -->
+        <div class="register-container">
+            <h2>Register now and start the journey with us</h2>
+            <form>
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your full name" required />
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email" required />
+                </div>
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="tel" placeholder="Enter phone number" required />
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter password" required />
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" placeholder="Re-enter password" required />
+                </div>
+                <div class="terms">
+                    <input type="checkbox" required /> I agree to the terms and conditions
+                </div>
+                <button type="submit" class="register-btn">Create Account</button>
+                <div class="login-link">
+                    Already have an account? <a href="#">Login here</a>
+                </div>
+            </form>
+        </div>
+        <div>
+
+            <div class="jumbotron">
+                <h1>Drive Your Dream Car Today</h1>
+                <p>"Affordable rentals. Luxury rides. Your journey begins here."</p>
+                <button class="cta-btn">Book Now</button>
+            </div>
+ <p style="text-align: justify; font-size:20px; line-height: 1.6; color: #ffffff;">
+  Welcome to India's most trusted platform for buying and selling cars online.
+  <br><br>
+  Whether you're upgrading your ride or letting go of your old companion, we make the process smooth, secure, and simple.
+  <br><br>
+  Registering with us opens the door to a powerful car marketplace — at your fingertips.
+  <br><br>
+
+
+   </div>
+
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+</body>
+
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Business Class Cars</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #000000, #3d3d3d, #454444);
+      color: white;
+    }
+
+    .navbar {
+      background-color: #111;
+    }
+
+    .jumbotron-custom {
+      background: linear-gradient(to right, #000000, #3a3a3a, #515050);
+      padding: 4rem 2rem;
+      border-radius: 1rem;
+      margin-top: 1rem;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      text-align: center;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+
+    
+      
+         .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 25px rgba(0, 255, 255, 0.2);
+    }
+    
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+
+    .brand {
+      font-size: 0.85rem;
+      color: #bbb;
+    }
+
+
+       .nav-item a {
+    color: rgb(15, 8, 1);
+    font-size: 30px;
+    
+    text-align: center;
+    word-spacing: 40px;
+  }
+
+  .nav-item a:hover {
+    color: rgb(54, 121, 121);
+  }
+  </style>
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg    shadow-sm sticky-top" style=" background: linear-gradient(to right, #000000, #3a3a3a, #e0e0e0); ">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="mainNavbar " style="height:40px; justify-content: end; ">
+             <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="gap: 30px; ">
+
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">ContactUs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="About.html">AboutUs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ 
+
+    
+<!-- Jumbotron -->
+<div class="container">
+  <div class="jumbotron-custom my-4">
+    <h1 class="display-5 fw-bold">Business Class Cars</h1>
+    <p class="lead">Executive luxury and class – explore our top premium cars for business needs and formal rides.</p>
+  </div>
+</div>
+
+<!-- Cards -->
+<div class="container">
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src=" https://images8.alphacoders.com/122/thumb-1920-1220194.jpg" class="card-img-top" alt="BMW 5 Series">
+        <div class="card-body">
+          <h5 class="card-title">BMW 5 Series</h5>
+          <p class="brand">Foreign Brand</p>
+          <p class="card-text">Luxury sedan with a bold look and premium interior.</p>
+          <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://wallpapers.com/images/hd/audi-a6-1920-x-1200-wallpaper-k7gb5pkqa0gmf8jv.jpg" class="card-img-top" alt="Audi A6">
+        <div class="card-body">
+          <h5 class="card-title">Audi A6</h5>
+          <p class="brand">Foreign Brand</p>
+          <p class="card-text">Class-leading comfort, technology, and smooth ride.</p>
+          <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.LsxSqnoyJuEZcLmMts6lTQHaEK?pid=Api&P=0&h=180" class="card-img-top" alt="Mercedes E-Class">
+        <div class="card-body">
+          <h5 class="card-title">Mercedes E-Class</h5>
+          <p class="brand">Foreign Brand</p>
+          <p class="card-text">Elegance, technology and comfort for professionals.</p>
+          <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Volvo S90">
+        <div class="card-body">
+          <h5 class="card-title">Volvo S90</h5>
+          <p class="brand">Foreign Brand</p>
+          <p class="card-text">Safe, stylish and perfect for business class comfort.</p>
+          <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://wallpapercave.com/wp/wp2162739.jpg" class="card-img-top" alt="Jaguar XF">
+        <div class="card-body">
+          <h5 class="card-title">Jaguar XF</h5>
+          <p class="brand">Foreign Brand</p>
+          <p class="card-text">Executive class luxury with powerful British design.</p>
+          <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/51/eb/03/51eb0380d6106a811c71bf5fac4aedbf.png" class="card-img-top" alt="Skoda Superb">
+        <div class="card-body">
+          <h5 class="card-title">Skoda Superb</h5>
+          <p class="brand">Foreign Brand</p>
+          <p class="card-text">Spacious sedan with premium interiors and performance.</p>
+          <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src=" https://stimg.cardekho.com/images/carexteriorimages/930x620/Toyota/Camry/11344/1733916451269/front-left-side-47.jpg" class="card-img-top" alt="Toyota Camry">
+        <div class="card-body">
+          <h5 class="card-title">Toyota Camry</h5>
+          <p class="brand">Foreign Brand</p>
+          <p class="card-text">Hybrid business-class car with silent drive and luxury.</p>
+          <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 8 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://cdn.wallpapersafari.com/20/30/fa8FTS.jpg" class="card-img-top" alt="Hyundai Sonata">
+        <div class="card-body">
+          <h5 class="card-title">Hyundai Sonata</h5>
+          <p class="brand">Indian Brand</p>
+          <p class="card-text">Smart business look with comfort and performance.</p>
+          <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 9 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://wallpapercave.com/wp/wp4045957.jpg" class="card-img-top" alt="Tata Harrier">
+        <div class="card-body">
+          <h5 class="card-title">Tata Harrier</h5>
+          <p class="brand">Indian Brand</p>
+          <p class="card-text">Bold SUV for corporate drives and meetings.</p>
+          <a href="" class="btn btn-primary" style="width: 100%;text-align: center;">BUY</a>
+            <a href="" class="btn btn-primary" style="width: 100%;text-align: center; margin: 10px;" >RENT</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<footer class=" text-white pt-5 pb-4"
+        style=" background: linear-gradient(to right, #000000, #555555, #232121); border-top-left-radius: 80px;">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+
+                <!-- Company Info -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> URBAN-YATRA</h5>
+                    <p>
+                        DriveCart is your trusted destination to buy, sell, and rent cars with ease. We offer verified
+                        listings, best deals, and 24x7 customer support.
+                    </p>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+                    <p><i class="fas fa-home me-3"></i> 123 Auto Street, Car City, India</p>
+                    <p><i class="fas fa-envelope me-3"></i> support@carzone.com</p>
+                    <p><i class="fas fa-phone me-3"></i> ‪+91 98765 43210‬</p>
+                    <p><i class="fas fa-clock me-3"></i> Mon - Sat: 9AM - 8PM</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
+                    <p><a href="index.html" class="text-white text-decoration-none">Home</a></p>
+                    <p><a href="login.html" class="text-white text-decoration-none">login</a></p>
+                    <p><a href="contact.html" class="text-white text-decoration-none">Contact Us</a></p>
+                    <p><a href="service.html" class="text-white text-decoration-none">Service</a></p>
+                    <p><a href="About.html" class="text-white text-decoration-none">about</a></p>
+                </div>
+
+                <!-- Social Media -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Follow Us</h5>
+                    <a href="#" class="text-white me-4"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-white me-4"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-white me-4"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-white me-4"><i class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <p class="text-white">© 2025 CarZone Pvt. Ltd. All Rights Reserved.</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
